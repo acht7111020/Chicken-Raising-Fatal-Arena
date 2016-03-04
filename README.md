@@ -19,4 +19,12 @@ Like a traditional Tamagotchi game, which is based on NuMaker TRIO.
 * Music – 環境髒亂到變成紅燈時、從黑夜模式回復白天時會發出警訊，電子雞成長會有音效，與電子雞互動也會有音效。
 
 # Example LCD
-![Big Chicken](/pic/bigChecken1.bmp)
+![Start](/pic/start.bmp "Start")
+![Big Chicken](/pic/bigChecken1.bmp "Big Chicken")
+![Big Chicken sick](/pic/bigChecken_sick.bmp "Big Chicken sick")
+![Chicken](/pic/chicken1.bmp "Chicken")
+![Chicken sick](/pic/chicken_sick.bmp "Chicken sick")
+![Chicken sleep](/pic/chicken_sleep.bmp "Chicken sleep")
+![Egg](/pic/egg2.bmp "Egg")
+![Egg sick](/pic/egg_sick2.bmp "Egg sick")
+![Egg sleep](/pic/egg_sleep2.bmp "Egg sleep")
