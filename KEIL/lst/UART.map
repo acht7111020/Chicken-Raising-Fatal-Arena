@@ -1,0 +1,279 @@
+Component: ARM Compiler 5.06 update 1 (build 61) Tool: armlink [4d35a8]
+
+==============================================================================
+
+Small function inlining results
+
+Inlined total of 0 calls.
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x000000d5
+
+  Load Region LR_1 (Base: 0x00000000, Size: 0x00004a2c, Max: 0xffffffff, ABSOLUTE)
+
+    Execution Region ER_RO (Base: 0x00000000, Size: 0x00003a38, Max: 0xffffffff, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00000000   0x000000c0   Data   RO          114    RESET               startup_nano1x2series.o
+    0x000000c0   0x00000000   Code   RO         1662  * .ARM.Collect$$$$00000000  mc_p.l(entry.o)
+    0x000000c0   0x00000004   Code   RO         1972    .ARM.Collect$$$$00000001  mc_p.l(entry2.o)
+    0x000000c4   0x00000004   Code   RO         1975    .ARM.Collect$$$$00000004  mc_p.l(entry5.o)
+    0x000000c8   0x00000000   Code   RO         1977    .ARM.Collect$$$$00000008  mc_p.l(entry7b.o)
+    0x000000c8   0x00000000   Code   RO         1979    .ARM.Collect$$$$0000000A  mc_p.l(entry8b.o)
+    0x000000c8   0x00000008   Code   RO         1980    .ARM.Collect$$$$0000000B  mc_p.l(entry9a.o)
+    0x000000d0   0x00000000   Code   RO         1982    .ARM.Collect$$$$0000000D  mc_p.l(entry10a.o)
+    0x000000d0   0x00000000   Code   RO         1984    .ARM.Collect$$$$0000000F  mc_p.l(entry11a.o)
+    0x000000d0   0x00000004   Code   RO         1973    .ARM.Collect$$$$00002712  mc_p.l(entry2.o)
+    0x000000d4   0x00000044   Code   RO          115  * .text               startup_nano1x2series.o
+    0x00000118   0x0000002c   Code   RO         1663    .text               mc_p.l(uidiv.o)
+    0x00000144   0x00000028   Code   RO         1665    .text               mc_p.l(idiv.o)
+    0x0000016c   0x00000024   Code   RO         1671    .text               mc_p.l(rand.o)
+    0x00000190   0x00000024   Code   RO         1674    .text               mc_p.l(memcpya.o)
+    0x000001b4   0x0000000e   Code   RO         1676    .text               mc_p.l(strlen.o)
+    0x000001c2   0x00000002   PAD
+    0x000001c4   0x00000164   Code   RO         1941    .text               mf_p.l(dadd.o)
+    0x00000328   0x000000d0   Code   RO         1943    .text               mf_p.l(dmul.o)
+    0x000003f8   0x000000f0   Code   RO         1945    .text               mf_p.l(ddiv.o)
+    0x000004e8   0x00000028   Code   RO         1947    .text               mf_p.l(dflti.o)
+    0x00000510   0x00000032   Code   RO         1949    .text               mf_p.l(ffixi.o)
+    0x00000542   0x00000038   Code   RO         1951    .text               mf_p.l(d2f.o)
+    0x0000057a   0x00000020   Code   RO         1989    .text               mc_p.l(llshl.o)
+    0x0000059a   0x00000022   Code   RO         1991    .text               mc_p.l(llushr.o)
+    0x000005bc   0x00000026   Code   RO         1993    .text               mc_p.l(llsshr.o)
+    0x000005e2   0x00000000   Code   RO         2002    .text               mc_p.l(iusefp.o)
+    0x000005e2   0x00000082   Code   RO         2003    .text               mf_p.l(fepilogue.o)
+    0x00000664   0x000000be   Code   RO         2005    .text               mf_p.l(depilogue.o)
+    0x00000722   0x0000002c   Code   RO         2009    .text               mf_p.l(dscalb.o)
+    0x0000074e   0x000000a2   Code   RO         2011    .text               mf_p.l(dsqrt.o)
+    0x000007f0   0x00000028   Code   RO         2017    .text               mf_p.l(cdrcmple.o)
+    0x00000818   0x00000024   Code   RO         2019    .text               mc_p.l(init.o)
+    0x0000083c   0x00000000   Code   RO         2021    .text               mc_p.l(semi.o)
+    0x0000083c   0x00000000   Code   RO         2022    .text               mc_p.l(iusesemip.o)
+    0x0000083c   0x00000028   Code   RO          988    i.ADC_Open          adc.o
+    0x00000864   0x0000001c   Code   RO          221    i.CLK_EnableModuleClock  clk.o
+    0x00000880   0x000000a4   Code   RO          222    i.CLK_EnablePLL     clk.o
+    0x00000924   0x00000010   Code   RO          224    i.CLK_EnableXtalRC  clk.o
+    0x00000934   0x00000010   Code   RO          226    i.CLK_GetHCLKFreq   clk.o
+    0x00000944   0x00000038   Code   RO          229    i.CLK_GetPCLKFreq   clk.o
+    0x0000097c   0x0000003c   Code   RO          230    i.CLK_GetPLLClockFreq  clk.o
+    0x000009b8   0x00000034   Code   RO          233    i.CLK_SetCoreClock  clk.o
+    0x000009ec   0x00000024   Code   RO          234    i.CLK_SetHCLK       clk.o
+    0x00000a10   0x00000050   Code   RO          235    i.CLK_SetModuleClock  clk.o
+    0x00000a60   0x00000024   Code   RO          236    i.CLK_SysTickDelay  clk.o
+    0x00000a84   0x0000002c   Code   RO          237    i.CLK_WaitClockReady  clk.o
+    0x00000ab0   0x000000e8   Code   RO         1163    i.Change_mode       main.o
+    0x00000b98   0x00000054   Code   RO         1164    i.CheckADC          main.o
+    0x00000bec   0x0000012c   Code   RO         1165    i.DetectADC         main.o
+    0x00000d18   0x00000034   Code   RO         1166    i.DetectAcc         main.o
+    0x00000d4c   0x0000002a   Code   RO         1167    i.DetectTheta       main.o
+    0x00000d76   0x00000002   PAD
+    0x00000d78   0x0000023c   Code   RO         1168    i.Draw_my_LCD       main.o
+    0x00000fb4   0x00000338   Code   RO         1169    i.FatalChickenFight  main.o
+    0x000012ec   0x00000028   Code   RO          510    i.GPIO_SetMode      gpio.o
+    0x00001314   0x00000036   Code   RO          553    i.I2C_Open          i2c.o
+    0x0000134a   0x000000ac   Code   RO         1319    i.I2C_readBytes     i2cdev.o
+    0x000013f6   0x00000080   Code   RO         1320    i.I2C_writeBytes    i2cdev.o
+    0x00001476   0x00000002   PAD
+    0x00001478   0x00000038   Code   RO         1170    i.Init_ADC          main.o
+    0x000014b0   0x000000ac   Code   RO         1418    i.Init_LCD          i2c_ssd1306z.o
+    0x0000155c   0x0000002c   Code   RO         1345    i.Init_MPU6050      mpu6050.o
+    0x00001588   0x00000010   Code   RO         1171    i.Init_PWM          main.o
+    0x00001598   0x00000044   Code   RO         1172    i.Init_RGBLED       main.o
+    0x000015dc   0x0000004c   Code   RO         1173    i.Init_Timer1       main.o
+    0x00001628   0x0000001c   Code   RO         1346    i.MPU6050_ReadByte  mpu6050.o
+    0x00001644   0x0000001c   Code   RO         1347    i.MPU6050_WriteByte  mpu6050.o
+    0x00001660   0x0000016c   Code   RO          810    i.PWM_ConfigOutputChannel  pwm.o
+    0x000017cc   0x00000008   Code   RO          815    i.PWM_DisableOutput  pwm.o
+    0x000017d4   0x00000008   Code   RO          822    i.PWM_EnableOutput  pwm.o
+    0x000017dc   0x00000028   Code   RO          830    i.PWM_Start         pwm.o
+    0x00001804   0x00000018   Code   RO         1348    i.Read_MPU6050_AccX  mpu6050.o
+    0x0000181c   0x00000018   Code   RO         1349    i.Read_MPU6050_AccY  mpu6050.o
+    0x00001834   0x00000018   Code   RO         1350    i.Read_MPU6050_AccZ  mpu6050.o
+    0x0000184c   0x000000f4   Code   RO         1607    i.SYS_Init          sys_init.o
+    0x00001940   0x00000050   Code   RO            3    i.SysGet_HCLKFreq   system_nano1x2series.o
+    0x00001990   0x0000003c   Code   RO            4    i.SysGet_PLLClockFreq  system_nano1x2series.o
+    0x000019cc   0x00000020   Code   RO            5    i.SystemCoreClockUpdate  system_nano1x2series.o
+    0x000019ec   0x000000a0   Code   RO         1057    i.TIMER_GetModuleClock  timer.o
+    0x00001a8c   0x00000044   Code   RO         1058    i.TIMER_Open        timer.o
+    0x00001ad0   0x0000014c   Code   RO         1174    i.TMR0_IRQHandler   main.o
+    0x00001c1c   0x0000007c   Code   RO         1175    i.TMR1_IRQHandler   main.o
+    0x00001c98   0x00000020   Code   RO         1725    i.__0printf$1       mc_p.l(printf1.o)
+    0x00001cb8   0x00000028   Code   RO         1727    i.__0sprintf$1      mc_p.l(printf1.o)
+    0x00001ce0   0x0000002e   Code   RO         2007    i.__ARM_clz         mf_p.l(depilogue.o)
+    0x00001d0e   0x00000002   PAD
+    0x00001d10   0x0000002c   Code   RO         1967    i.__ARM_fpclassify  m_ps.l(fpclassify.o)
+    0x00001d3c   0x000000ac   Code   RO         1969    i.__kernel_poly     m_ps.l(poly.o)
+    0x00001de8   0x00000014   Code   RO         1953    i.__mathlib_dbl_divzero  m_ps.l(dunder.o)
+    0x00001dfc   0x0000000a   Code   RO         1954    i.__mathlib_dbl_infnan  m_ps.l(dunder.o)
+    0x00001e06   0x00000008   Code   RO         1955    i.__mathlib_dbl_infnan2  m_ps.l(dunder.o)
+    0x00001e0e   0x00000010   Code   RO         1956    i.__mathlib_dbl_invalid  m_ps.l(dunder.o)
+    0x00001e1e   0x00000002   PAD
+    0x00001e20   0x00000014   Code   RO         1957    i.__mathlib_dbl_overflow  m_ps.l(dunder.o)
+    0x00001e34   0x00000014   Code   RO         1959    i.__mathlib_dbl_underflow  m_ps.l(dunder.o)
+    0x00001e48   0x0000000e   Code   RO         2025    i.__scatterload_copy  mc_p.l(handlers.o)
+    0x00001e56   0x00000002   Code   RO         2026    i.__scatterload_null  mc_p.l(handlers.o)
+    0x00001e58   0x0000000e   Code   RO         2027    i.__scatterload_zeroinit  mc_p.l(handlers.o)
+    0x00001e66   0x00000002   PAD
+    0x00001e68   0x0000000c   Code   RO         1997    i.__set_errno       mc_p.l(errno.o)
+    0x00001e74   0x00000150   Code   RO         1732    i._printf_core      mc_p.l(printf1.o)
+    0x00001fc4   0x0000000a   Code   RO         1734    i._sputc            mc_p.l(printf1.o)
+    0x00001fce   0x00000002   PAD
+    0x00001fd0   0x0000021c   Code   RO         1635    i.atan              m_ps.l(atan.o)
+    0x000021ec   0x00000026   Code   RO         1419    i.clear_LCD         i2c_ssd1306z.o
+    0x00002212   0x00000084   Code   RO         1429    i.draw_Bmp32x32     i2c_ssd1306z.o
+    0x00002296   0x00000084   Code   RO         1433    i.draw_Bmp64x64     i2c_ssd1306z.o
+    0x0000231a   0x0000002c   Code   RO         1436    i.draw_LCD          i2c_ssd1306z.o
+    0x00002346   0x00000002   PAD
+    0x00002348   0x00000044   Code   RO         1437    i.draw_Pixel        i2c_ssd1306z.o
+    0x0000238c   0x00000012   Code   RO         1986    i.fputc             mc_p.l(fputc.o)
+    0x0000239e   0x0000001e   Code   RO         1438    i.lcdSetAddr        i2c_ssd1306z.o
+    0x000023bc   0x0000001c   Code   RO         1439    i.lcdWriteCommand   i2c_ssd1306z.o
+    0x000023d8   0x0000001c   Code   RO         1440    i.lcdWriteData      i2c_ssd1306z.o
+    0x000023f4   0x00000248   Code   RO         1176    i.main              main.o
+    0x0000263c   0x000009fc   Code   RO         1645    i.pow               m_ps.l(pow.o)
+    0x00003038   0x0000004c   Code   RO         1444    i.print_C           i2c_ssd1306z.o
+    0x00003084   0x00000024   Code   RO         1445    i.print_Line        i2c_ssd1306z.o
+    0x000030a8   0x00000048   Code   RO         1655    i.sqrt              m_ps.l(sqrt.o)
+    0x000030f0   0x00000020   Data   RO          238    .constdata          clk.o
+    0x00003110   0x00000010   Data   RO         1062    .constdata          timer.o
+    0x00003120   0x000007d0   Data   RO         1447    .constdata          i2c_ssd1306z.o
+    0x000038f0   0x00000098   Data   RO         1636    .constdata          m_ps.l(atan.o)
+    0x00003988   0x00000088   Data   RO         1646    .constdata          m_ps.l(pow.o)
+    0x00003a10   0x00000008   Data   RO         1971    .constdata          m_ps.l(qnan.o)
+    0x00003a18   0x00000020   Data   RO         2023    Region$$Table       anon$$obj.o
+
+
+    Execution Region ER_RW (Base: 0x20000000, Size: 0x00000ff4, Max: 0xffffffff, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20000000   0x00000008   Data   RW            6    .data               system_nano1x2series.o
+    0x20000008   0x00000fde   Data   RW         1177    .data               main.o
+    0x20000fe6   0x00000002   PAD
+    0x20000fe8   0x00000004   Data   RW         1672    .data               mc_p.l(rand.o)
+    0x20000fec   0x00000004   Data   RW         1988    .data               mc_p.l(stdout.o)
+    0x20000ff0   0x00000004   Data   RW         1998    .data               mc_p.l(errno.o)
+
+
+    Execution Region ER_ZI (Base: 0x20000ff4, Size: 0x00000904, Max: 0xffffffff, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20000ff4   0x00000400   Zero   RW         1446    .bss                i2c_ssd1306z.o
+    0x200013f4   0x00000004   PAD
+    0x200013f8   0x00000500   Zero   RW          112    STACK               startup_nano1x2series.o
+
+
+==============================================================================
+
+Image component sizes
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+
+        40          4          0          0          0        987   adc.o
+       588        102         32          0          0       7265   clk.o
+        40          0          0          0          0       1007   gpio.o
+        54          0          0          0          0     102839   i2c.o
+       784         18       2000          0       1024       9501   i2c_ssd1306z.o
+       300          0          0          0          0       2105   i2cdev.o
+      3362        404          0       4062          0     122637   main.o
+       172          8          0          0          0       3968   mpu6050.o
+       420         20          0          0          0       3513   pwm.o
+        68         28        192          0       1280        732   startup_nano1x2series.o
+       244         36          0          0          0      27663   sys_init.o
+       172         38          0          8          0     108830   system_nano1x2series.o
+       228         34         16          0          0     103880   timer.o
+         0          0          0          0          0     101808   uart.o
+
+    ----------------------------------------------------------------------
+      6478        692       2272       4072       2308     596735   Object Totals
+         0          0         32          0          0          0   (incl. Generated)
+         6          0          0          2          4          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Member Name
+
+       540         68        152          0          0        112   atan.o
+        94         14          0          0          0        408   dunder.o
+        44          4          0          0          0         60   fpclassify.o
+       172          0          0          0          0         76   poly.o
+      2556        196        136          0          0        240   pow.o
+         0          0          8          0          0          0   qnan.o
+        72          6          0          0          0         76   sqrt.o
+         0          0          0          0          0          0   entry.o
+         0          0          0          0          0          0   entry10a.o
+         0          0          0          0          0          0   entry11a.o
+         8          4          0          0          0          0   entry2.o
+         4          0          0          0          0          0   entry5.o
+         0          0          0          0          0          0   entry7b.o
+         0          0          0          0          0          0   entry8b.o
+         8          4          0          0          0          0   entry9a.o
+        12          6          0          4          0         60   errno.o
+        18          0          0          0          0         72   fputc.o
+        30          0          0          0          0          0   handlers.o
+        40          0          0          0          0         72   idiv.o
+        36          8          0          0          0         68   init.o
+         0          0          0          0          0          0   iusefp.o
+         0          0          0          0          0          0   iusesemip.o
+        32          0          0          0          0         68   llshl.o
+        38          0          0          0          0         68   llsshr.o
+        34          0          0          0          0         68   llushr.o
+        36          0          0          0          0         60   memcpya.o
+       418         16          0          0          0        312   printf1.o
+        36         12          0          4          0        120   rand.o
+         0          0          0          0          0          0   semi.o
+         0          0          0          4          0          0   stdout.o
+        14          0          0          0          0         60   strlen.o
+        44          0          0          0          0         72   uidiv.o
+        40          2          0          0          0         68   cdrcmple.o
+        56          0          0          0          0         68   d2f.o
+       356          4          0          0          0        140   dadd.o
+       240          6          0          0          0         84   ddiv.o
+       236          0          0          0          0        216   depilogue.o
+        40          6          0          0          0         68   dflti.o
+       208          6          0          0          0         88   dmul.o
+        44          0          0          0          0         72   dscalb.o
+       162          0          0          0          0         80   dsqrt.o
+       130          0          0          0          0        144   fepilogue.o
+        50          0          0          0          0         60   ffixi.o
+
+    ----------------------------------------------------------------------
+      5858        362        296         12          0       3160   Library Totals
+        10          0          0          0          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Name
+
+      3478        288        296          0          0        972   m_ps.l
+       808         50          0         12          0       1100   mc_p.l
+      1562         24          0          0          0       1088   mf_p.l
+
+    ----------------------------------------------------------------------
+      5858        362        296         12          0       3160   Library Totals
+
+    ----------------------------------------------------------------------
+
+==============================================================================
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
+
+     12336       1054       2568       4084       2308     595947   Grand Totals
+     12336       1054       2568       4084       2308     595947   ELF Image Totals
+     12336       1054       2568       4084          0          0   ROM Totals
+
+==============================================================================
+
+    Total RO  Size (Code + RO Data)                14904 (  14.55kB)
+    Total RW  Size (RW Data + ZI Data)              6392 (   6.24kB)
+    Total ROM Size (Code + RO Data + RW Data)      18988 (  18.54kB)
+
+==============================================================================
+

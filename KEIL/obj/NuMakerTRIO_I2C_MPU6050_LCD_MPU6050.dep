@@ -1,0 +1,401 @@
+Dependencies for Project 'NuMakerTRIO_I2C_MPU6050_LCD', Target 'MPU6050': (DO NOT MODIFY !)
+F (..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Source\system_Nano1X2Series.c)(0x559C96EC)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\..\Library\CMSIS\Include -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include -I..\..\..\..\Library\NuMakerLib\Include -I..\-I D:\mdk\ARM\RV31\INC-I D:\mdk\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DDEBUG_ENABLE_SEMIHOST-o .\obj\system_nano1x2series.o --list_dir ".\\lst\\" --list --omf_browse .\obj\system_nano1x2series.crf --depend .\obj\system_nano1x2series.d)
+I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include\Nano1X2Series.h)(0x559C96EC)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x559C96EA)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x559C96EA)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x559C96EA)
+I (..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include\system_Nano1X2Series.h)(0x559C96EC)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\sc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\scuart.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x559C96EE)
+F (..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Source\ARM\startup_Nano1X2Series.s)(0x559C96EC)(--cpu Cortex-M0 --pd "__EVAL SETA 1" -g --16 --apcs=interwork --pd "__MICROLIB SETA 1"-I D:\mdk\ARM\RV31\INC-I D:\mdk\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 517" --pd "DEBUG_ENABLE_SEMIHOST SETA 1"--list .\lst\startup_nano1x2series.lst --xref -o .\obj\startup_nano1x2series.o --depend .\obj\startup_nano1x2series.d)
+F (..\..\..\..\Library\StdDriver\src\sys.c)(0x55EA9DF3)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\..\Library\CMSIS\Include -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include -I..\..\..\..\Library\NuMakerLib\Include -I..\-I D:\mdk\ARM\RV31\INC-I D:\mdk\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DDEBUG_ENABLE_SEMIHOST-o .\obj\sys.o --list_dir ".\\lst\\" --list --omf_browse .\obj\sys.crf --depend .\obj\sys.d)
+I (..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include\Nano1X2Series.h)(0x559C96EC)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x559C96EA)
+I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x559C96EA)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x559C96EA)
+I (..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include\system_Nano1X2Series.h)(0x559C96EC)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\sc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\scuart.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x559C96EE)
+F (..\..\..\..\Library\StdDriver\src\clk.c)(0x569B4CB1)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\..\Library\CMSIS\Include -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include -I..\..\..\..\Library\NuMakerLib\Include -I..\-I D:\mdk\ARM\RV31\INC-I D:\mdk\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DDEBUG_ENABLE_SEMIHOST-o .\obj\clk.o --list_dir ".\\lst\\" --list --omf_browse .\obj\clk.crf --depend .\obj\clk.d)
+I (..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include\Nano1X2Series.h)(0x559C96EC)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x559C96EA)
+I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x559C96EA)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x559C96EA)
+I (..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include\system_Nano1X2Series.h)(0x559C96EC)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\sc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\scuart.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x559C96EE)
+F (..\..\..\..\Library\StdDriver\src\uart.c)(0x559C96F0)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\..\Library\CMSIS\Include -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include -I..\..\..\..\Library\NuMakerLib\Include -I..\-I D:\mdk\ARM\RV31\INC-I D:\mdk\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DDEBUG_ENABLE_SEMIHOST-o .\obj\uart.o --list_dir ".\\lst\\" --list --omf_browse .\obj\uart.crf --depend .\obj\uart.d)
+I (D:\mdk\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include\Nano1X2Series.h)(0x559C96EC)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x559C96EA)
+I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x559C96EA)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x559C96EA)
+I (..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include\system_Nano1X2Series.h)(0x559C96EC)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\sc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\scuart.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x559C96EE)
+F (..\..\..\..\Library\StdDriver\src\gpio.c)(0x559C96F0)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\..\Library\CMSIS\Include -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include -I..\..\..\..\Library\NuMakerLib\Include -I..\-I D:\mdk\ARM\RV31\INC-I D:\mdk\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DDEBUG_ENABLE_SEMIHOST-o .\obj\gpio.o --list_dir ".\\lst\\" --list --omf_browse .\obj\gpio.crf --depend .\obj\gpio.d)
+I (..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include\Nano1X2Series.h)(0x559C96EC)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x559C96EA)
+I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x559C96EA)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x559C96EA)
+I (..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include\system_Nano1X2Series.h)(0x559C96EC)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\sc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\scuart.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x559C96EE)
+F (..\..\..\..\Library\StdDriver\src\i2c.c)(0x559C96F0)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\..\Library\CMSIS\Include -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include -I..\..\..\..\Library\NuMakerLib\Include -I..\-I D:\mdk\ARM\RV31\INC-I D:\mdk\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DDEBUG_ENABLE_SEMIHOST-o .\obj\i2c.o --list_dir ".\\lst\\" --list --omf_browse .\obj\i2c.crf --depend .\obj\i2c.d)
+I (..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include\nano1x2series.h)(0x559C96EC)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x559C96EA)
+I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x559C96EA)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x559C96EA)
+I (..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include\system_Nano1X2Series.h)(0x559C96EC)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\sc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\scuart.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x559C96EE)
+F (..\..\..\..\Library\StdDriver\src\rtc.c)(0x559C96F0)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\..\Library\CMSIS\Include -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include -I..\..\..\..\Library\NuMakerLib\Include -I..\-I D:\mdk\ARM\RV31\INC-I D:\mdk\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DDEBUG_ENABLE_SEMIHOST-o .\obj\rtc.o --list_dir ".\\lst\\" --list --omf_browse .\obj\rtc.crf --depend .\obj\rtc.d)
+I (D:\mdk\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include\Nano1X2Series.h)(0x559C96EC)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x559C96EA)
+I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x559C96EA)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x559C96EA)
+I (..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include\system_Nano1X2Series.h)(0x559C96EC)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\sc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\scuart.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x559C96EE)
+F (..\..\..\..\Library\StdDriver\src\pwm.c)(0x561B55B4)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\..\Library\CMSIS\Include -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include -I..\..\..\..\Library\NuMakerLib\Include -I..\-I D:\mdk\ARM\RV31\INC-I D:\mdk\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DDEBUG_ENABLE_SEMIHOST-o .\obj\pwm.o --list_dir ".\\lst\\" --list --omf_browse .\obj\pwm.crf --depend .\obj\pwm.d)
+I (..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include\Nano1X2Series.h)(0x559C96EC)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x559C96EA)
+I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x559C96EA)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x559C96EA)
+I (..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include\system_Nano1X2Series.h)(0x559C96EC)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\sc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\scuart.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x559C96EE)
+F (..\..\..\..\Library\StdDriver\src\adc.c)(0x559C96F0)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\..\Library\CMSIS\Include -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include -I..\..\..\..\Library\NuMakerLib\Include -I..\-I D:\mdk\ARM\RV31\INC-I D:\mdk\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DDEBUG_ENABLE_SEMIHOST-o .\obj\adc.o --list_dir ".\\lst\\" --list --omf_browse .\obj\adc.crf --depend .\obj\adc.d)
+I (..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include\Nano1X2Series.h)(0x559C96EC)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x559C96EA)
+I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x559C96EA)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x559C96EA)
+I (..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include\system_Nano1X2Series.h)(0x559C96EC)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\sc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\scuart.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x559C96EE)
+F (..\..\..\..\Library\StdDriver\src\timer.c)(0x560F805C)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\..\Library\CMSIS\Include -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include -I..\..\..\..\Library\NuMakerLib\Include -I..\-I D:\mdk\ARM\RV31\INC-I D:\mdk\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DDEBUG_ENABLE_SEMIHOST-o .\obj\timer.o --list_dir ".\\lst\\" --list --omf_browse .\obj\timer.crf --depend .\obj\timer.d)
+I (..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include\Nano1x2Series.h)(0x559C96EC)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x559C96EA)
+I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x559C96EA)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x559C96EA)
+I (..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include\system_Nano1X2Series.h)(0x559C96EC)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\sc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\scuart.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x559C96EE)
+F (..\main.c)(0x569DD5DC)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\..\Library\CMSIS\Include -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include -I..\..\..\..\Library\NuMakerLib\Include -I..\-I D:\mdk\ARM\RV31\INC-I D:\mdk\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DDEBUG_ENABLE_SEMIHOST-o .\obj\main.o --list_dir ".\\lst\\" --list --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (D:\mdk\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
+I (D:\mdk\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include\Nano1X2Series.h)(0x559C96EC)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x559C96EA)
+I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x559C96EA)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x559C96EA)
+I (..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include\system_Nano1X2Series.h)(0x559C96EC)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\sc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\scuart.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x559C96EE)
+I (..\MCU_init.h)(0x569B62D1)
+I (..\..\..\..\Library\NuMakerLib\Include\SYS_init.h)(0x56332C1D)
+I (..\..\..\..\Library\NuMakerLib\Include\MPU6050.h)(0x558D1740)
+I (..\..\..\..\Library\NuMakerLib\Include\I2C_SSD1306Z.h)(0x56064416)
+I (..\..\..\..\Library\NuMakerLib\Include\Note_Freq.h)(0x51ABFE24)
+I (D:\mdk\ARM\ARMCC\include\math.h)(0x55DB2B7E)
+F (..\..\..\..\Library\NuMakerLib\Source\I2Cdev.c)(0x556008CB)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\..\Library\CMSIS\Include -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include -I..\..\..\..\Library\NuMakerLib\Include -I..\-I D:\mdk\ARM\RV31\INC-I D:\mdk\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DDEBUG_ENABLE_SEMIHOST-o .\obj\i2cdev.o --list_dir ".\\lst\\" --list --omf_browse .\obj\i2cdev.crf --depend .\obj\i2cdev.d)
+I (D:\mdk\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include\Nano1X2Series.h)(0x559C96EC)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x559C96EA)
+I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x559C96EA)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x559C96EA)
+I (..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include\system_Nano1X2Series.h)(0x559C96EC)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\sc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\scuart.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x559C96EE)
+I (..\..\..\..\Library\NuMakerLib\Include\I2Cdev.h)(0x553DAB14)
+F (..\..\..\..\Library\NuMakerLib\Source\MPU6050.c)(0x562BC519)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\..\Library\CMSIS\Include -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include -I..\..\..\..\Library\NuMakerLib\Include -I..\-I D:\mdk\ARM\RV31\INC-I D:\mdk\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DDEBUG_ENABLE_SEMIHOST-o .\obj\mpu6050.o --list_dir ".\\lst\\" --list --omf_browse .\obj\mpu6050.crf --depend .\obj\mpu6050.d)
+I (D:\mdk\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include\Nano1X2Series.h)(0x559C96EC)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x559C96EA)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x559C96EA)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x559C96EA)
+I (..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include\system_Nano1X2Series.h)(0x559C96EC)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\sc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\scuart.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x559C96EE)
+I (..\..\..\..\Library\NuMakerLib\Include\I2Cdev.h)(0x553DAB14)
+I (..\..\..\..\Library\NuMakerLib\Include\MPU6050.h)(0x558D1740)
+F (..\..\..\..\Library\NuMakerLib\Source\I2C_SSD1306Z.c)(0x5606C40B)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\..\Library\CMSIS\Include -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include -I..\..\..\..\Library\NuMakerLib\Include -I..\-I D:\mdk\ARM\RV31\INC-I D:\mdk\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DDEBUG_ENABLE_SEMIHOST-o .\obj\i2c_ssd1306z.o --list_dir ".\\lst\\" --list --omf_browse .\obj\i2c_ssd1306z.crf --depend .\obj\i2c_ssd1306z.d)
+I (D:\mdk\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (D:\mdk\ARM\ARMCC\include\string.h)(0x55DB2B78)
+I (..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include\Nano1X2Series.h)(0x559C96EC)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x559C96EA)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x559C96EA)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x559C96EA)
+I (..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include\system_Nano1X2Series.h)(0x559C96EC)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\sc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\scuart.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x559C96EE)
+I (..\..\..\..\Library\NuMakerLib\Include\I2Cdev.h)(0x553DAB14)
+I (..\..\..\..\Library\NuMakerLib\Include\I2C_SSD1306Z.h)(0x56064416)
+I (..\..\..\..\Library\NuMakerLib\Include\Font8x16.h)(0x55A8C24D)
+I (..\..\..\..\Library\NuMakerLib\Include\Font5x7.h)(0x55A8C24D)
+F (..\..\..\..\Library\NuMakerLib\Source\SYS_init.c)(0x563D773D)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\..\Library\CMSIS\Include -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include -I..\..\..\..\Library\NuMakerLib\Include -I..\-I D:\mdk\ARM\RV31\INC-I D:\mdk\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DDEBUG_ENABLE_SEMIHOST-o .\obj\sys_init.o --list_dir ".\\lst\\" --list --omf_browse .\obj\sys_init.crf --depend .\obj\sys_init.d)
+I (D:\mdk\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+I (..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include\Nano1X2Series.h)(0x559C96EC)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x559C96EA)
+I (D:\mdk\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x559C96EA)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x559C96EA)
+I (..\..\..\..\Library\Device\Nuvoton\Nano1X2Series\Include\system_Nano1X2Series.h)(0x559C96EC)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\sc.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\scuart.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x559C96EE)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x559C96EE)
+I (..\MCU_init.h)(0x569B62D1)
+I (..\..\..\..\Library\NuMakerLib\Include\SYS_init.h)(0x56332C1D)
