@@ -1,4 +1,4 @@
-# Chicken-Raisng-Fatal-Arena
+# Chicken-Raising-Fatal-Arena
 Like a traditional Tamagotchi game, which is based on NuMaker TRIO.
 
 ## Product  Introduce
